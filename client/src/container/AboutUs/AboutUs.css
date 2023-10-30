@@ -1,0 +1,21 @@
+.about__container {
+    margin-top:4rem;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.about__container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+}
+.about__container1 img{
+    width: 100vw;
+}
+.container11{
+    width: 53%;
+    line-height: 1.1;
+}

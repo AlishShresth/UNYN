@@ -1,0 +1,240 @@
+.contact__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:3rem;
+}
+
+.contact__container-1{
+    width: 50%;
+    padding: 0 0 0 6rem;
+    background-color: var(--color-white);
+    height: 40vh;
+    position: relative;
+    z-index: 1;
+    /* flex:1; */
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+}
+
+.contact__info-1{
+    display: flex;
+    margin-top: 1rem;  
+}
+
+.contact__info-2 {
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+.contact__info-3 {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.contact__container-2{
+    width: 35%;
+    border: 1px solid white;
+    box-shadow: 2px 2px 10px 1px #ddf1f5;
+    padding: 1rem;
+    margin-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    justify-self: flex-end;
+    position:absolute;
+        z-index: 2;
+        left: 55%;
+        background-color: white;
+}
+
+.contact__form{
+    display:flex;
+    flex-direction: column;
+}
+.contact__form input::placeholder, .contact__form textarea::placeholder{
+    padding: 10px;
+    font-weight:200;
+    font-size: 0.8rem;
+    color: var(--color-blue);
+}
+.form__input{
+    padding:5px;
+    display:flex;
+    align-items: flex-start;
+    height: 2.5rem;
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.form__textarea{
+    padding: 5px;
+    display: flex;
+        align-items: flex-start;
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 14px;
+        font-weight: 200;
+        height: 8rem;
+}
+
+.form__button{
+    padding: .75rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+    border:none;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-size: 13px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+
+.form__button:hover{
+background-color: var(--color-blue-dark);
+}
+
+.contact__container-3{
+    /* background-color: var(--color-blue-dark); */
+    background-color: var(--color-blue-dark);
+    color: var(--color-white);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 65vh;
+    position: relative;
+    z-index: 1;
+}
+
+.contact__container-3 img{
+    width: 9rem;
+}
+.contact__subcontainer-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5rem;
+    
+}
+.subscribe p, .subscribe div{
+    padding-left: 2rem;
+    color:white;
+    font-weight: 200;
+    font-size:.9rem;
+    flex:1;
+}
+.subscribe div input{
+    font-size: 15px;
+    padding: 0.6rem;
+    width: 50%;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    margin:1rem;
+    
+}
+.whitePlaceholder .custom__button1 {
+    background-color: var(--color-white);
+        color: var(--color-blue);
+        font-family: var(--font-base);
+        font-weight: 400;
+        letter-spacing: 0.04em;
+        line-height: 28px;
+        font-size: 16px;
+        padding: 0.5rem 3rem;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+}
+.whitePlaceholder input::placeholder{
+ color: rgb(219, 213, 213);
+ font-weight: 200;
+ font-size:0.8rem;
+}
+.custom__button1:hover {
+    background-color: var(--color-blue-light);
+
+}
+.links{
+    margin-top:4rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.links ul{
+    color: white;
+}
+.links li {
+    list-style: none;
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: .85rem;
+}
+.updates {
+    margin-top: 4rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.updates ul {
+    color: white;
+}
+.updates li{
+    list-style:none;
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: .85rem;
+}
+.follow {
+    margin-top: 4rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    
+}
+.follow svg{
+    margin-right: 5px;
+    
+}
+.follow div{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.follow div p{
+    font-weight: 200;
+    font-size: .85rem;
+}
+.divider{
+    margin: 2rem;
+    width: 90vw;
+    border: 0.25px solid rgba(234, 234, 234, 0.911);
+    font-weight: 200;
+    justify-content: center;
+}
+.copyright{
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    justify-content: space-between;
+    color:white;
+    font-size: 0.8rem;
+    font-weight:200;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    line-height: 20px;
+}
+.copyright p{
+    cursor: pointer;
+}

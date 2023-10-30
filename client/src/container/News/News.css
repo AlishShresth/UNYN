@@ -1,0 +1,10 @@
+.news__container {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top:5rem;
+}
+
+.news__container img{
+    width: 90vw;
+}

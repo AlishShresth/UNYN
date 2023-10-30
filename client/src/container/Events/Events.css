@@ -1,0 +1,10 @@
+.events__container {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.events__container img{
+    width: 90vw;
+}
